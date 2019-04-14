@@ -4,7 +4,7 @@ const auth = require('../middleware/auth')
 const router = express.Router();
 router.post('/',async (req,res)=>{
     
-var products = req.body.strArr.split(",")
+// var products = req.body.strArr.split(",")
 
 //  await req.body["products"].forEach( async (addedProduct) => {
 //      const product =  await Product.findByIdAndUpdate(addedProduct.id);
@@ -12,7 +12,7 @@ var products = req.body.strArr.split(",")
                 
 //    });
 //    await res.send(products)
-   console.log(products);
+//    console.log(products);
 
 });
 
